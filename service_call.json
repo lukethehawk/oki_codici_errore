@@ -1,0 +1,590 @@
+[
+  {
+    "Error Code":"001",
+    "Cause":"Machine Check\nException\nHardware fault\ndetected.(Board\ndefectiveness\nor Shortage of\npower supply\nvolume)\n(PDL only)",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Replace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"002",
+    "Cause":"CPU\nUnexpected\nException",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"003",
+    "Cause":"CPU\nUnexpected\nException",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"004",
+    "Cause":"CPU\nUnexpected\nException",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"005",
+    "Cause":"CPU\nUnexpected\nException",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"012",
+    "Cause":"A watchdog\ntimeout occurs\ndue to no system\ntimer interrupt\nfor unknown\nreasons.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"020",
+    "Cause":"The CU FW in\nNAND FLASH\nhas not been\ndetected, or a\ncheck SUM error\nhas occurred.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"024",
+    "Cause":"CU Font ROM\nHash Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"030",
+    "Cause":"CU RAM Check\nError\nThe CE1 ASIC\nequipped\napparatus\ndisplays the sub\nnumber for the\ndetected part.\n01: resident\n(CPU) RAM\n02: CE1 Main\nRAM\n03: CE1 sub\nRAM",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"040",
+    "Cause":"CU EEPROM\nError",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"042",
+    "Cause":"Flash File\nSystem Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Run forced initialization of\nFlash. (Note that NIC- F\/W is\ndeleted. After the initialization,\nit is need to written the NIC-F\/\nW by the Maintenance utility.)\nReplace the Printer controller\nboard if symptom does not\nchange."
+  },
+  {
+    "Error Code":"043",
+    "Cause":"Flash File\nSystem Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Run forced initialization of\nFlash. (Note that NIC- F\/W is\ndeleted. After the initialization,\nit is need to written the NIC-F\/\nW by the Maintenance utility.)\nReplace the Printer controller\nboard if symptom does not\nchange."
+  },
+  {
+    "Error Code":"045",
+    "Cause":"Flash File\nSystem Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Run forced initialization of\nFlash. (Note that NIC- F\/W is\ndeleted. After the initialization,\nit is need to written the NIC-F\/\nW by the Maintenance utility.)\nReplace the Printer controller\nboard if symptom does not\nchange."
+  },
+  {
+    "Error Code":"049",
+    "Cause":"4\/5 Color\nconfiguration\nerror",
+    "Check details":"Sub board was\nmismatched with 4\/5\ncolor setting in the CU\nboard.",
+    "Result":null,
+    "Remedial measure":"1) Install or uninstall the Sub\nboard.\n2) Replace the Printer\ncontroller board with correct\n4\/5 color setting to match the\nEngine."
+  },
+  {
+    "Error Code":"051",
+    "Cause":"CU Fan Error\nAbnormal CPU\ncooling fan on\nCU board.\n(PDL only)",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Is CU Fan connector set\nproperly?\nIf yes, replace fan.\nIs error recovered by\nreplacing fan?\nIf no, replace the printer controller board"
+  },
+  {
+    "Error Code":"052",
+    "Cause":"DMA Abort\nError detected\nin Image\nprocessor.\n(PDL only)",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"056",
+    "Cause":"The controller\nunit detects\nthe HDD is not\nmounted to the\napparatus that\nis mounted it\nnecessary.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF and mount the\nHDD. And Power ON."
+  },
+  {
+    "Error Code":"067",
+    "Cause":"SleepMode\nInterface Monitor\nI\/F error with CU\nF\/W.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"If power cycling does not solve\nthe problem, maintenance by\na service engineer is required."
+  },
+  {
+    "Error Code":"069",
+    "Cause":"The NIC device\nhad not worked\ncorrectly.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"070",
+    "Cause":"Post Script\nfirmware fault\nwas detected.\n(PDL only)",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"072",
+    "Cause":"Engine I\/F error\nbetween PU-CU.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"073",
+    "Cause":"Video Error;\nFault detected\nwhen image\ndata was\nextended.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"075",
+    "Cause":"Video Error;\nFault detected\nwhen image\ndata was\nextended.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"077",
+    "Cause":"The video\ndecompress\nfault was\ndetected on\nthe image data\nexpansion.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"081",
+    "Cause":"The CU initializer\ndetected an\nerror in the\nbackuped data.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"104",
+    "Cause":"Engine\nEEPROM setting\ncheck was OK\nwhen power ON.\nThen detect read\n\/ write error.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"106",
+    "Cause":"Abnormal\nengine control\nlogic.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"108",
+    "Cause":"01: Watch Dog\nTimer Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"108",
+    "Cause":"02: Unexpected\nInterrupt\nDetected",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"108",
+    "Cause":"03: Main CPU\nException\nError",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"108",
+    "Cause":"05: ASIC1 I\/O\nAccess Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"108",
+    "Cause":"0F: ASIC2 I\/O\nAccess Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the Sub PCB or\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"108",
+    "Cause":"10: Driver CPU\nException\nError",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the Driver relay PCB or\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"108",
+    "Cause":"12: Power CPU\nCommunication\nError",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"108",
+    "Cause":"13: Relay\nControl Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nor\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"109",
+    "Cause":"01:In3\nTransmission\nSensor\nCalibration\nError\n02:In3 Reflect\nSensor\nCalibration\nError\n03:Cutter In\nTransmission\nSensor\nCalibration\nError\n04:Cutter In\nReflect\nSensor\nCalibration\nError\n05:Unwinder\nSlack Sensor\nError",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Check the open circuit of\nthe sensor cable and any\nabnormal for the sensor."
+  },
+  {
+    "Error Code":"118",
+    "Cause":"Detected illegal\nUnit Error\n03: Unwinder",
+    "Check details":"An unsupported version\nunit was detected.",
+    "Result":null,
+    "Remedial measure":"Remove the unit after Power\nOFF.\nIf the unit conforms to the\napparatus and this error is\ndisplayed, maintenance by a\nservice engineer is required."
+  },
+  {
+    "Error Code":"121",
+    "Cause":"High-voltage\npower supply I\/F\nerror.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Is cable between PU\nboard and high-voltage\npower unit connected\nproperly? If no connect properly.\nIs there no improperly\nconnections? If yes check improper connections for high-voltage. If no replace the high-voltage power supply"
+  },
+  {
+    "Error Code":"123",
+    "Cause":"Abnormal\nenvironment\nhumidity \/Not\nconnected\nhumidity sensor.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the Environment\nboard or\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"124",
+    "Cause":"Abnormal\nenvironment\ntemperature.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the Environment\nboard or\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"126",
+    "Cause":"Condensation in\nthe printer was\ndetected.",
+    "Check details":"Condensation is likely to\noccur in printers carried\nfrom the outside.\nTurn on the printer again\nafter it is exposed to\nroom temperature for\ntwo hours to half a day.",
+    "Result":null,
+    "Remedial measure":"Turn on the printer again after\nit is left alone or\nReplace the Environment\nboard or\nReplace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"128",
+    "Cause":"01: Fuser\nexhaust\nFan1 Error, \n02: Power\nSupply Front\nFan Eror, \n03: Engine Fan\nError, \n05: ID Fan1(White\nDrum Fan)\nError, \n0A: Fuser intake\nFan Error, \n0B: ID Fan2\n(Yellow\nDrum Fan)\nError, \n0D: Fuser\nexhaust\nFan2 Error, \n0E: ID Fan3\n(Magenta\nDrum Fan)\nError, \n0F: ID Fan4\n(Cyan Drum\nFan) Error, \n10: ID Fan5\n(Black Drum\nFan) Error, \n11: Unwinder\nFan Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Correct the connection. or\nReplace the FAN. or\nReplace the board:\n01: Driver relay board\n02: Driver relay board\n03: Driver relay board\n05: Main board\n0A: Driver relay board\n0B: Main board\n0D: Driver relay board\n0E: Main board\n0F: Main board\n10: Main board\n11: Option board"
+  },
+  {
+    "Error Code":"134",
+    "Cause":"LED head fault\ndetected.\n(01 = K, 02 = C,\n03 = M, 04 =Y,\n05 = W)",
+    "Check details":"Is LED head properly\nset?",
+    "Result":null,
+    "Remedial measure":"Set properly for LED head\nunit.\nPower OFF\/ON.\nReplace LED head unit\nReplace the board.\n134-01 to 04:\nPrinter controller board\n134-05: Sub board"
+  },
+  {
+    "Error Code":"135",
+    "Cause":"07: Belt Motor\nLock Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Remove the Belt unit.\nDose the motor drive by\nthe motor test?\nYes: Replace the Belt Unit.\nNo: Check the following motor and board.\nDose not the mechanism\nabnormal of the fuse cut\nor the broken gear etc\nlie?\nYes: Replace the motor or the belt\nmotor driving mechanism.\nNo: Replace the Printer controller\nboard.\n\n"
+  },
+  {
+    "Error Code":"135",
+    "Cause":"09: Fuser Motor\nLock Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Remove the Fuser and\nExit unit. Does the motor\ndrive by the motor test?\nYes: Replace the Fuser and Exit\nUnit.\nNo: Check the following motor and board.\nDoes not the mechanism\nabnormal of the fuse cut\nof the motor, the open \/\nshort circuit of the motor\nor the broken gear etc\nlie?\nYes: Replace the motor or\nthe Fuser motor driving\nmechanism.\nNo: Replace the Printer controller\nboard."
+  },
+  {
+    "Error Code":"135",
+    "Cause":"11: ID Motor\nLock Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Remove the Print\nCartridge. Does the\nmotor drive by the motor\ntest?\nYes: Replace the Print Cartridge.\nNo: Check the following motor and\nboard.\nDoes not the mechanism\nabnormal of the fuse cut\nof the motor?\nYes: Replace the motor.\nNo: Replace the driver relay\nboard.\nDoes error reoccur?\nYes: Replace the DC_Motor(ID)\ndriving mechanism."
+  },
+  {
+    "Error Code":"135",
+    "Cause":"20: Fuser\nRotate\nSensor\nError",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"135",
+    "Cause":"21:Fuser Rotate\nSensor\nShort Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nCheck the Fuser rotate detect\nsensor, the driver relay board\nand the Printer controller\nboard"
+  },
+  {
+    "Error Code":"135",
+    "Cause":"22: Fuser\nRotate\nSensor\nOpen Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nCheck the Fuser rotate detect\nsensor, the driver relay board\nand the Printer controller\nboard"
+  },
+  {
+    "Error Code":"136",
+    "Cause":"02: Fuser\nUnit High\ntemperature\nlatch error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"137",
+    "Cause":"LED Head\nPower Error\n01: Head Power\nerror of the\nmain board\n02: Head Power\nerror of the\nSub board",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"01: Does the fuse F25,\nF125 or F128 on\nthe Printer controller\nboard open?\nReplace the Printer controller\nboard.\n02: Does the fuse F1\nor F2 on the Sub\nboard open?\nReplace the Sub board."
+  },
+  {
+    "Error Code":"156",
+    "Cause":"Cutter unit\nfuse cannot be\ndisconnected.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Does the fuse F3 on the\nOption board open?\nYes: Replace the Option board."
+  },
+  {
+    "Error Code":"166",
+    "Cause":"The power\nsupply\nthermistor is\ndetected an\nabnormal.\n01 : The power\nsupply\nthermistor is\ndetected as\nshorted.\n02 : The power\nsupply\nthermistor is\ndetected as\nopen.\n03 : The power\nsupply\nthermistor\nindicates\nhigh\ntemperature\nerror.\n04 : The power\nsupply\nthermistor\nindicates\nlow\ntemperature\nerror.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Check that the\nresistance value is about\n10kΩ with contacting the\nboth end of RT201 on\nthe power supply board.\nNo: Replace the power supply\nboard."
+  },
+  {
+    "Error Code":"167",
+    "Cause":"Thermistor\nSlope Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"168",
+    "Cause":"Compensation\nThermistor Error\n01: Short circuit\nof the\nthermistor for\ncompensation\nof the upper\nthermo pile\n02: Open circuit\nof the\nthermistor for\ncompensation\nof the upper\nthermo pile\n03: High\ntemperature\nerror of the\nthermistor for\ncompensation\nof the upper\nthermo pile\n04: Low\ntemperature\nerror of the\nthermistor for\ncompensation\nof the upper\nthermo pile\n11: Short circuit\nof the\nthermistor for\ncompensation\nof the lower\nthermo pile\n12: Open circuit\nof the\nthermistor for\ncompensation\nof the lower\nthermo pile\n13: High\ntemperature\nerror of the\nthermistor for\ncompensation\nof the lower\nthermo pile\n14: Low\ntemperature\nerror of the\nthermistor for\ncompensation\nof the lower\nthermo pile",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"169",
+    "Cause":null,
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"169",
+    "Cause":"41: Short circuit\nof the Belt\nthermistor\n42: Open circuit\nof the Belt\nthermistor\n43: High\ntemperature\nerror of the\nBelt thermistor",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Check that the\nresistance value is about\n10kΩ for the both end of\nthe Belt thermistor cable\ndisconnected from the\nPrinter controller board.\nNo: Replace the Belt thermistor."
+  },
+  {
+    "Error Code":"169",
+    "Cause":"51: Short circuit\nof the 2nd\ntransfer\nthermistor\n52: Open circuit\nof the 2nd\ntransfer\nthermistor",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Check that the\nresistance value is\nabout 10kΩ for the\nboth end of the 2nd\ntransfer thermistor cable\ndisconnected from the\nTHERM connector of\nDriver relay board.\nNo: Replace the TR2-Sub-Assy."
+  },
+  {
+    "Error Code":"170",
+    "Cause":"Short or open\ncircuit at the\nUpper Thrmo\npile detected.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"171",
+    "Cause":"Short or open\ncircuit at the\nUpper Thrmo\npile detected.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"172",
+    "Cause":"Abnormal\ntemperature\ndetected by the\nUpper Thrmo\npile\n(high-temp or\nlow temp.)",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"173",
+    "Cause":"Abnormal\ntemperature\ndetected by the\nUpper Thrmo\npile\n(high-temp or\nlow temp.)",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"174",
+    "Cause":"Detecting of\nthe short circuit\n(174) or the\nopen circuit\n(175) for the\nLower Thermo\npile",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"175",
+    "Cause":"Detecting of\nthe short circuit\n(174) or the\nopen circuit\n(175) for the\nLower Thermo\npile",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"176",
+    "Cause":"Abnormal\ntemperature\ndetected by\nLower Thermo\npile\n(high-temp: 176\nor low temp:\n177.)",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"177",
+    "Cause":"Abnormal\ntemperature\ndetected by\nLower Thermo\npile\n(high-temp: 176\nor low temp:\n177.)",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"188",
+    "Cause":"02: Sub CPU2\nI\/F Error\n03: Unwinder I\/\nF Error",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the Driver relay board"
+  },
+  {
+    "Error Code":"190",
+    "Cause":"System Memory\nOverflow.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nAdd option RAM DIMM."
+  },
+  {
+    "Error Code":"203",
+    "Cause":"An error was\ndetected of the\nCU program.\n(These problems\nare not occurred\nin the usual\noperating.)",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":null
+  },
+  {
+    "Error Code":"204",
+    "Cause":"An error was\ndetected of the\nCU program.\n(These problems\nare not occurred\nin the usual\noperating.)",
+    "Check details":"Reinstall the CU board.\nIs the error message\ndisplayed again?",
+    "Result":null,
+    "Remedial measure":"After turn power OFF,check\nconnections between CU\nboard and PU board. Then\nPower OFF\/ON."
+  },
+  {
+    "Error Code":"207",
+    "Cause":"An error was\ndetected of the\nCU program.\n(These problems\nare not occurred\nin the usual\noperating.)",
+    "Check details":"Reinstall the CU board.\nIs the error message\ndisplayed again?",
+    "Result":null,
+    "Remedial measure":"After turn power OFF,check\nconnections between CU\nboard and PU board. Then\nPower OFF\/ON."
+  },
+  {
+    "Error Code":"208",
+    "Cause":"An error was\ndetected of the\nCU program.\n(These problems\nare not occurred\nin the usual\noperating.)",
+    "Check details":"Reinstall the CU board.\nIs the error message\ndisplayed again?",
+    "Result":null,
+    "Remedial measure":"After turn power OFF,check\nconnections between CU\nboard and PU board. Then\nPower OFF\/ON."
+  },
+  {
+    "Error Code":"213",
+    "Cause":"An error was\ndetected of the\nCU program.\n(These problems\nare not occurred\nin the usual\noperating.)",
+    "Check details":"Error occurred while\nprinting",
+    "Result":null,
+    "Remedial measure":"Turn the printer OFF\/ON,and\nretry to download the PU\nfirmware,again.\n(Usually, the procedure isn't\ndone, so this is not occur.)"
+  },
+  {
+    "Error Code":"214",
+    "Cause":"An error was\ndetected of the\nCU program.\n(These problems\nare not occurred\nin the usual\noperating.)",
+    "Check details":"Error occurred while\nprinting",
+    "Result":null,
+    "Remedial measure":"Turn the printer OFF\/ON,and\nretry to download the PU\nfirmware,again.\n(Usually, the procedure isn't\ndone, so this is not occur.)"
+  },
+  {
+    "Error Code":"215",
+    "Cause":"PU Over Run\nError",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"230",
+    "Cause":"Tag Reader\nMissing",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the Tag Terminal\nPCB or\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"231",
+    "Cause":"01: PU-Tag\nReader\nInterface\nError\n03: Tag\nInterface\nError",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the Tag Terminal\nPCB or\nReplace the Printer controller\nboard"
+  },
+  {
+    "Error Code":"247",
+    "Cause":"Engine Program\nMemory Error\n03: The engine\ndetects a\nH\/W error\nin a flash\nmemory\nof the\nUnwinder\nCPU.\n05: The engine\ndetects a\nH\/W error\nin a flash\nmemory of\nthe Power\nCPU.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the Driver relay board"
+  },
+  {
+    "Error Code":"250",
+    "Cause":"Secure File\nErasing Error",
+    "Check details":"An encrypted file\ndeletion error has been\ndetected.\nHas the user accepted\nexecution of HDD\nERASE?",
+    "Result":null,
+    "Remedial measure":"Notifies users of the necessity\nof running Disk ERASE for\nencrypted file deletion to\nformat the HDD."
+  },
+  {
+    "Error Code":"251",
+    "Cause":"Secure Disk\nErasing Error",
+    "Check details":"An error was detected\nin the Disk ERASE\nprocess.",
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nReplace the HDD"
+  },
+  {
+    "Error Code":"254",
+    "Cause":"An unexcepted\nerror occurred\nduring\ninitializing the\nsecurity mode.\nError cause\ninformation was\ndisplayed after\nan error number",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nRecreates an encryption\nkey. If the problem remains\nunsolved, replace the CU\nboard."
+  },
+  {
+    "Error Code":"257",
+    "Cause":"An unexcepted\nerror occurred\nduring initializing\nan hard disk.\nError cause\ninformation was\ndisplayed after\nan error number.",
+    "Check details":null,
+    "Result":null,
+    "Remedial measure":"Power OFF\/ON or\nFormats the HDD again. If the\nproblem remains unsolved,\nreplace the HDD."
+  },
+  {
+    "Error Code":"F0C",
+    "Cause":"An error was\ndetected of the\nCU program.",
+    "Check details":"Reinstall the CU board.\nIs the error message\ndisplayed again?",
+    "Result":null,
+    "Remedial measure":"After turn power OFF, check\nconnections between CU\nboard and PU board. Then\nPower OFF\/ON"
+  },
+  {
+    "Error Code":"FFF",
+    "Cause":"An error was\ndetected of the\nCU program.",
+    "Check details":"Reinstall the CU board.\nIs the error message\ndisplayed again?",
+    "Result":null,
+    "Remedial measure":"After turn power OFF, check\nconnections between CU\nboard and PU board. Then\nPower OFF\/ON."
+  }
+]

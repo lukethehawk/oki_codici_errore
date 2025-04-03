@@ -1,0 +1,642 @@
+[
+  {
+    "Codici errore":302,
+    "Panel messages":"Firmware Update\nError\nPlease retry\nIf network doesn't\nwork, please try\nfirmware update\nover USB",
+    "Details":"Indicates that firmware update has failed.\nIn this case, firmware update needs to be\nexecuted again, so the printer must be\nonline."
+  },
+  {
+    "Codici errore":491,
+    "Panel messages":"Install paper in\nUnwinder",
+    "Details":"Indicates that the printing paper is required\nbecause no installed it to the Unwinder"
+  },
+  {
+    "Codici errore":519,
+    "Panel messages":"Receiving Data\nTimeout\nPress OK Button\nfor Restoration",
+    "Details":"Indicates the error in the case of the timeout\noccurs in receiving the data of Port9100,\nLPR, FTP, IPP, WSD and Email."
+  },
+  {
+    "Codici errore":310,
+    "Panel messages":"Close Cover",
+    "Details":"The cover is open. Top Cover"
+  },
+  {
+    "Codici errore":589,
+    "Panel messages":"Close Cover",
+    "Details":"The cover is open. Unwinder Cover"
+  },
+  {
+    "Codici errore":320,
+    "Panel messages":"Check Fuser and\nExit Unit",
+    "Details":"The Fuser and Exit Unit is not correctly\ninstalled."
+  },
+  {
+    "Codici errore":330,
+    "Panel messages":"Check Belt Unit",
+    "Details":"The Belt Unit is not correctly installed."
+  },
+  {
+    "Codici errore":331,
+    "Panel messages":"Check Waste\nToner Box",
+    "Details":"Notifies the waste toner container is not\ncorrectly installed."
+  },
+  {
+    "Codici errore":333,
+    "Panel messages":"Install Fuser and\nExit Unit",
+    "Details":"Indicates that the Fuser and Exit Unit comes\noff."
+  },
+  {
+    "Codici errore":3400,
+    "Panel messages":"Check Print\nCartridge\nYellow",
+    "Details":"The Print Cartridge is not correctly installed.\nYellow"
+  },
+  {
+    "Codici errore":3401,
+    "Panel messages":"Check Print\nCartridge\nMagenta",
+    "Details":"The Print Cartridge is not correctly installed.\nMagenta"
+  },
+  {
+    "Codici errore":3402,
+    "Panel messages":"Check Print\nCartridge\nCyan",
+    "Details":"The Print Cartridge is not correctly installed.\nCyan"
+  },
+  {
+    "Codici errore":3403,
+    "Panel messages":"Check Print\nCartridge\nBlack",
+    "Details":"The Print Cartridge is not correctly installed.\nBlack"
+  },
+  {
+    "Codici errore":3404,
+    "Panel messages":"Check Print\nCartridge\nWhite",
+    "Details":"The Print Cartridge is not correctly installed.\nWhite"
+  },
+  {
+    "Codici errore":348,
+    "Panel messages":"Check Fuser and\nExit Unit",
+    "Details":"The engine detects the Fuser and Exit Unit\nerror.\nIt recovers, when a value is able to be\nnormally read by re-reading after cover\nclosing. When not recovering, exchange of\na Fuser and Exit Unit is needed."
+  },
+  {
+    "Codici errore":354,
+    "Panel messages":"Install New Fuser\nand Exit Unit\nFuser and Exit Unit\nLife",
+    "Details":"Indicates the Fuser and Exit Unit has\nreached its life. This is the error displayed\nbased on the counter to indicate that the\nFuser and Exit Unit has reached its life, and\nprinting will stop.\nWarning status takes effect at Cover Open\/\nClose.\nThis error will occur on some user setting\nmode."
+  },
+  {
+    "Codici errore":355,
+    "Panel messages":"Install New Belt\nUnit\nBelt Unit Life",
+    "Details":"Indicates the Belt Unit has reached its life.\nThis is the error displayed based on the\ncounter to indicate that the Belt Unit has\nreached its life, and printing will stop.\nWarning status takes effect at Cover Open\/\nClose."
+  },
+  {
+    "Codici errore":357,
+    "Panel messages":"Install New Waste\nToner Box\nWaste Toner Full",
+    "Details":"Indicates the Waste Toner Box has filled up\nthe container, and printing will stop."
+  },
+  {
+    "Codici errore":380,
+    "Panel messages":"Open Top Cover\nPaper Jam",
+    "Details":"Jam has occurred in paper path.\nError 380 : Feed"
+  },
+  {
+    "Codici errore":381,
+    "Panel messages":"Open Top Cover\nPaper Jam",
+    "Details":"Jam has occurred in paper path.\nError 381 : Transport"
+  },
+  {
+    "Codici errore":382,
+    "Panel messages":"Check Fuser and\nExit Unit\nPaper Jam",
+    "Details":"Jam has occurred in paper path.\nError 382 : Exit"
+  },
+  {
+    "Codici errore":386,
+    "Panel messages":"Check Fuser Unit\nPaper Feed Jam",
+    "Details":"Exit Feed Jam\nThis Error is displayed on the LCD Display\nwhen the paper could not feed while the\nspecific time."
+  },
+  {
+    "Codici errore":389,
+    "Panel messages":"Remove Paper\nPrinting Page Lost",
+    "Details":"Jam has occurred in paper path."
+  },
+  {
+    "Codici errore":391,
+    "Panel messages":"Open Unwinder\nCover\nPaper Jam",
+    "Details":"Paper jam occurred during paper feeding\nfrom the Unwinder."
+  },
+  {
+    "Codici errore":4100,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life\n",
+    "Details":"Toner ends. Error 4100 : Yellow"
+  },
+  {
+    "Codici errore":4101,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life\n",
+    "Details":"Toner ends. Error 4101 : Magenta"
+  },
+  {
+    "Codici errore":4102,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"Toner ends. Error 4102 : Cyan"
+  },
+  {
+    "Codici errore":4103,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"Toner ends. Error 4103 : Black"
+  },
+  {
+    "Codici errore":4104,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"Toner ends. Error 4104 : White"
+  },
+  {
+    "Codici errore":420,
+    "Panel messages":"Memory Overflow",
+    "Details":"Memory capacity overflows due to the\nfollowing reason.\nPress OK button so that it continues. Install\nexpansion RAM or decrease the data\namount.\n- Too much print data in a page.\n- Too much Macro data.\n- Too much DLL data.\n- After frame buffer compression, over flow\noccurred."
+  },
+  {
+    "Codici errore":459,
+    "Panel messages":"A spot color\nprinting error has\noccurred. Data will\nbe erased\nCheck the paper\nand paper settings,\nand try to print\nagain. To turn off\nthe display, press\nOK button",
+    "Details":"Indicates that printing on unusable custom\nmedia or spot color is requested; therefore,\nthe print data has been deleted and the\nprinting has been cancelled."
+  },
+  {
+    "Codici errore":461,
+    "Panel messages":"Change paper in\nUnwinder\nPress UNLOAD or\nOK Button",
+    "Details":"The paper settings does not match the print\ndata.\nThe paper size displaying form of the\ncustom mode is the same as above.\nPaper size displays in Custom mode:\n'<width>x<length> <unit>'\ne.g.) 210x297 mm\n8.5x11.0 inch\nThe paper is turned out by pushing the\nUNLOAD button.\nThe forcible printing performed by pushing\nthe status canceling OK button.\n* The media information that is consisted\nby six line is displayed under the status\nmassage."
+  },
+  {
+    "Codici errore":502,
+    "Panel messages":"Resume Print from\nPage xxx\/xxx",
+    "Details":"Requesting Retry. Upon recovery from\nerror, the printer prompts the user to choose\neither Retry or cancel. If the user chooses\nRetry, the paper has to be readied."
+  },
+  {
+    "Codici errore":5600,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 5600 : Yellow\n"
+  },
+  {
+    "Codici errore":5601,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 5601 : Magenta"
+  },
+  {
+    "Codici errore":5602,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 5602 : Cyan"
+  },
+  {
+    "Codici errore":5603,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 5603 : Black"
+  },
+  {
+    "Codici errore":5604,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 5604 : White"
+  },
+  {
+    "Codici errore":631,
+    "Panel messages":"Open Unwinder\nCover\nPaper Remain",
+    "Details":"Additional paper is detected when a paper\njam has occurred."
+  },
+  {
+    "Codici errore":637,
+    "Panel messages":"Open Top Cover\nPaper Remain",
+    "Details":"Additional paper is detected when a paper\njam has occurred.\nError 637 : J0: Paper Feed Path"
+  },
+  {
+    "Codici errore":638,
+    "Panel messages":"Open Top Cover\nPaper Remain",
+    "Details":"Additional paper is detected when a paper\njam has occurred.\nError 638 : J1: Paper Transport Path"
+  },
+  {
+    "Codici errore":639,
+    "Panel messages":"Check Fuser and\nExit Unit\nPaper Remain",
+    "Details":"Additional paper is detected when a paper\njam has occurred.\nError 639 : J2: Paper Exit Path"
+  },
+  {
+    "Codici errore":6800,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 6800 : Yellow"
+  },
+  {
+    "Codici errore":6801,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 6801 : Magenta"
+  },
+  {
+    "Codici errore":6802,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 6802 : Cyan"
+  },
+  {
+    "Codici errore":6803,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 6803 : Black"
+  },
+  {
+    "Codici errore":6804,
+    "Panel messages":"Install New\n%COLOR% Print\nCartridge\nPrint Cartridge Life",
+    "Details":"The Print Cartridge reached its life.\nError 6804 : White"
+  },
+  {
+    "Codici errore":6840,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6840 : Yellow"
+  },
+  {
+    "Codici errore":6841,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6841 : Magenta"
+  },
+  {
+    "Codici errore":6842,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6842 : Cyan"
+  },
+  {
+    "Codici errore":6843,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6843 : Black"
+  },
+  {
+    "Codici errore":6844,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6844 : White"
+  },
+  {
+    "Codici errore":6881,
+    "Panel messages":"Non\nRecommended\nBelt Unit",
+    "Details":"This warning indicates that the Belt Unit is\nnot conforming to this apparatus.\nThis warning is cleared by replacing to the\nBelt Unit conforms to this apparatus."
+  },
+  {
+    "Codici errore":6882,
+    "Panel messages":"Non\nRecommended\nBelt Unit",
+    "Details":"This warning indicates that the Belt Unit is\nnot conforming to this apparatus.\nThis warning is cleared by replacing to the\nBelt Unit conforms to this apparatus."
+  },
+  {
+    "Codici errore":6883,
+    "Panel messages":"Non\nRecommended\nBelt Unit",
+    "Details":"This warning indicates that the Belt Unit is\nnot conforming to this apparatus.\nThis warning is cleared by replacing to the\nBelt Unit conforms to this apparatus."
+  },
+  {
+    "Codici errore":6884,
+    "Panel messages":"Non\nRecommended\nBelt Unit",
+    "Details":"This warning indicates that the Belt Unit is\nnot conforming to this apparatus.\nThis warning is cleared by replacing to the\nBelt Unit conforms to this apparatus."
+  },
+  {
+    "Codici errore":6885,
+    "Panel messages":"Non\nRecommended\nBelt Unit",
+    "Details":"This warning indicates that the Belt Unit is\nnot conforming to this apparatus.\nThis warning is cleared by replacing to the\nBelt Unit conforms to this apparatus."
+  },
+  {
+    "Codici errore":6886,
+    "Panel messages":"Non\nRecommended\nBelt Unit",
+    "Details":"This warning indicates that the Belt Unit is\nnot conforming to this apparatus.\nThis warning is cleared by replacing to the\nBelt Unit conforms to this apparatus."
+  },
+  {
+    "Codici errore":689,
+    "Panel messages":"Belt Unit Not\nInstalled",
+    "Details":"The belt unit can not be detected by the\nsignature control system."
+  },
+  {
+    "Codici errore":6900,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6900 : Yellow"
+  },
+  {
+    "Codici errore":6901,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6901 : Magenta"
+  },
+  {
+    "Codici errore":6902,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6902 : Cyan"
+  },
+  {
+    "Codici errore":6903,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6903 : Black"
+  },
+  {
+    "Codici errore":6904,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 6904 : White"
+  },
+  {
+    "Codici errore":6940,
+    "Panel messages":"Print Cartridge Not\nInstalled\n%COLOR%",
+    "Details":"The Print Cartridge can not be detected by\nthe signature control system.\nError 6940 : Yellow"
+  },
+  {
+    "Codici errore":6941,
+    "Panel messages":"Print Cartridge Not\nInstalled\n%COLOR%",
+    "Details":"The Print Cartridge can not be detected by\nthe signature control system.\nError 6941 : Magenta"
+  },
+  {
+    "Codici errore":6942,
+    "Panel messages":"Print Cartridge Not\nInstalled\n%COLOR%",
+    "Details":"The Print Cartridge can not be detected by\nthe signature control system.\nError 6942 : Cyan"
+  },
+  {
+    "Codici errore":6943,
+    "Panel messages":"Print Cartridge Not\nInstalled\n%COLOR%",
+    "Details":"The Print Cartridge can not be detected by\nthe signature control system.\nError 6943 : Black"
+  },
+  {
+    "Codici errore":6944,
+    "Panel messages":"Print Cartridge Not\nInstalled\n%COLOR%",
+    "Details":"The Print Cartridge can not be detected by\nthe signature control system.\nError 6944 : White"
+  },
+  {
+    "Codici errore":6981,
+    "Panel messages":"Non\nRecommended\nFuser and Exit Unit",
+    "Details":"This warning indicates that the Fuser and\nExit Unit is not conforming to this apparatus.\nThis warning is cleared by replacing to\nthe Fuser and Exit Unit conforms to this\napparatus."
+  },
+  {
+    "Codici errore":6982,
+    "Panel messages":"Non\nRecommended\nFuser and Exit Unit",
+    "Details":"This warning indicates that the Fuser and\nExit Unit is not conforming to this apparatus.\nThis warning is cleared by replacing to\nthe Fuser and Exit Unit conforms to this\napparatus."
+  },
+  {
+    "Codici errore":6983,
+    "Panel messages":"Non\nRecommended\nFuser and Exit Unit",
+    "Details":"This warning indicates that the Fuser and\nExit Unit is not conforming to this apparatus.\nThis warning is cleared by replacing to\nthe Fuser and Exit Unit conforms to this\napparatus."
+  },
+  {
+    "Codici errore":6984,
+    "Panel messages":"Non\nRecommended\nFuser and Exit Unit",
+    "Details":"This warning indicates that the Fuser and\nExit Unit is not conforming to this apparatus.\nThis warning is cleared by replacing to\nthe Fuser and Exit Unit conforms to this\napparatus."
+  },
+  {
+    "Codici errore":6985,
+    "Panel messages":"Non\nRecommended\nFuser and Exit Unit",
+    "Details":"The detected Fuser and Exit Unit is not\noptimal.\nInvalid Fuser and Exit Unit Detected"
+  },
+  {
+    "Codici errore":6986,
+    "Panel messages":"Non\nRecommended\nFuser and Exit Unit",
+    "Details":"The detected Fuser and Exit Unit is not\noptimal.\nNon Recommended Fuser and Exit Unit\nDetected"
+  },
+  {
+    "Codici errore":6987,
+    "Panel messages":"Non\nRecommended\nFuser and Exit Unit",
+    "Details":"Detection of a 110V Fuser and Exit Unit\ninstalled in a 220V device or a 220V Fuser\nand Exit Unit installed in a 110V device."
+  },
+  {
+    "Codici errore":699,
+    "Panel messages":"Fuser and Exit Unit\nNot Installed",
+    "Details":"The Fuser and Exit Unit can not be detected\nby the signature control system."
+  },
+  {
+    "Codici errore":7000,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7000 : Yellow"
+  },
+  {
+    "Codici errore":7001,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7001 : Magenta"
+  },
+  {
+    "Codici errore":7002,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7002 : Cyan"
+  },
+  {
+    "Codici errore":7003,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7003 : Black"
+  },
+  {
+    "Codici errore":7004,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7004 : White"
+  },
+  {
+    "Codici errore":7040,
+    "Panel messages":"Recommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7040 : Yellow"
+  },
+  {
+    "Codici errore":7041,
+    "Panel messages":"Recommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7041 : Magenta"
+  },
+  {
+    "Codici errore":7042,
+    "Panel messages":"Recommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7042 : Cyan"
+  },
+  {
+    "Codici errore":7043,
+    "Panel messages":"Recommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7043 : Black"
+  },
+  {
+    "Codici errore":7044,
+    "Panel messages":"Recommended\nPrint Cartridge\n%COLOR%",
+    "Details":"This warning indicates that the Print Cartridge\nis not conforming to this apparatus.\nThis warning is cleared by replacing to the\nPrint Cartridge conforms to this apparatus.\nError 7044 : White"
+  },
+  {
+    "Codici errore":709,
+    "Panel messages":"Caution: Non-\nGenuine\nconsumable\ndetected\nCheck user's\nManual \"Trouble\nShooting\" to\nrestore machine\noperation",
+    "Details":"Indicates installation of a consumable not\nauthorized by ODC."
+  },
+  {
+    "Codici errore":7100,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nInvalid Print Cartridge Detected\nError 7100: Yellow"
+  },
+  {
+    "Codici errore":7101,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nInvalid Print Cartridge Detected\nError 7101: Magenta\n"
+  },
+  {
+    "Codici errore":7102,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nInvalid Print Cartridge Detected\nError 7102: Cyan\n"
+  },
+  {
+    "Codici errore":7103,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nInvalid Print Cartridge Detected\nError 7103: Black"
+  },
+  {
+    "Codici errore":7104,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nInvalid Print Cartridge Detected\nError 7104: White"
+  },
+  {
+    "Codici errore":7200,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nNon Recommended Print Cartridge\nDetected\nError 7200: Yellow"
+  },
+  {
+    "Codici errore":7201,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nNon Recommended Print Cartridge\nDetected\nError 7201: Magenta"
+  },
+  {
+    "Codici errore":7202,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nNon Recommended Print Cartridge\nDetected\nError 7202: Cyan"
+  },
+  {
+    "Codici errore":7203,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nNon Recommended Print Cartridge\nDetected\nError 7203: Black"
+  },
+  {
+    "Codici errore":7204,
+    "Panel messages":"Non\nRecommended\nPrint Cartridge\n%COLOR%",
+    "Details":"The detected Print Cartridge is not optimal.\nNon Recommended Print Cartridge\nDetected\nError 7204: White"
+  },
+  {
+    "Codici errore":7302,
+    "Panel messages":"Check Cutter Unit\nCutter Home\nPosition Error",
+    "Details":"Error related to Unwinder is occurred.\nCutter unit could not detect home position."
+  },
+  {
+    "Codici errore":7305,
+    "Panel messages":"Feeder Unit Not\nInstalled\nShut down and\nInstall Feeder Unit",
+    "Details":"Feeder Unit did not install error.\n*IR mode set to OFF, only."
+  },
+  {
+    "Codici errore":7306,
+    "Panel messages":"Check Installed\nPaper\nMark Detection\nError",
+    "Details":"Mark detection error\nIn the case of followings.\n· The 1st mark could not be detected.\n· The Black Mark or Gap is different from 1\ninch or more was detected."
+  },
+  {
+    "Codici errore":7307,
+    "Panel messages":"Check Installed\nPaper\nPaper Edge Error",
+    "Details":"Paper top edge check error\nThe top edge or the BM could not be\ndetected in the checking of the top edge of\nthe paper."
+  },
+  {
+    "Codici errore":7308,
+    "Panel messages":"Check Installed\nPaper Edge\nPaper Edge Long\nError",
+    "Details":"Paper top edge check error (in the case of\nthe top edge is long)\nThe long top edge margin of the paper is\ndetected in the checking of the top edge of\nthe paper."
+  },
+  {
+    "Codici errore":7310,
+    "Panel messages":"Change Paper in\nUnwinder\nRoll Paper End",
+    "Details":"Detecting the Roll paper end in printing or\nfeeding. (detected the stretching the paper\ntight)\nIt causes the forced stoppage in detected\nthe stretching."
+  },
+  {
+    "Codici errore":7311,
+    "Panel messages":"Open Unwinder\nCover\nRoll Paper End",
+    "Details":"End of the Roll paper.\nThe roll paper end is detected in printing.\n(PE detection)\nPerforming the auto cutting \/ exiting against\nwinding the adhesive tape of the bottom\nend."
+  },
+  {
+    "Codici errore":7312,
+    "Panel messages":"Open Cover\nPaper was pulled\nout",
+    "Details":"The paper was pulled out forced.\n* for to cancel the error by the cover open\/\nclose."
+  },
+  {
+    "Codici errore":7314,
+    "Panel messages":"Check Paper\nRoll Paper Slack\nWinding Error",
+    "Details":"Roll paper end. (Error of the sag wandering)\nThe roll paper winding did not finished in the\nload motion after the paper setting."
+  },
+  {
+    "Codici errore":7315,
+    "Panel messages":"Check Paper\nRoll Paper Set\nSensor Error",
+    "Details":"Paper setting error.\nThe paper set sensor keeps OFF after the\nwinding finished of the immediately after the\nprinting starting.\nThe paper has not been set normally\nbecause the paper did not through under\nthe tension bar, etc."
+  },
+  {
+    "Codici errore":7319,
+    "Panel messages":"Paper Feed Error",
+    "Details":"Paper transporting error of the Unwinder.\nDetecting the abnormal transportation at the\ncutter unit in the Unwinder."
+  },
+  {
+    "Codici errore":7320,
+    "Panel messages":"Job Received\nPress OK button\nto cut the paper\nand start printing",
+    "Details":"Selecting of the continuous from cutting\nby pushing the OK button or the canceling\nof the job by pushing the Cancel button in\nthe case of the not printable job with in the\npaper transporting state."
+  },
+  {
+    "Codici errore":7372,
+    "Panel messages":"Paper Feed Error",
+    "Details":"Paper transporting error of the before the\nFuser and Exit Unit.\nDetecting the abnormal transportation\nbefore the Fuser and Exit Unit."
+  },
+  {
+    "Codici errore":7380,
+    "Panel messages":"The data will be\ndeleted due to a\nspot color order\nmismatch error.\nCheck the print\ncartridge position\nand spot color\nsettings, and try\nto print again.",
+    "Details":"Indicates that spot color overprint is\nrequested to the paper not supporting spot\ncolor overprint; therefore, the print data has\nbeen deleted and the printing has been\ncancelled."
+  },
+  {
+    "Codici errore":7381,
+    "Panel messages":"Paper Detection\nError\n%SENSOR_\nERROR%",
+    "Details":"Sensor Calibration Error\n%SENSOR_ERROR%:\nOPIN3TRANS1 #0, #3 to 6: IN3 Gap Sensor\nError 1, 4 to 7\nOPIN3TRANS2 #7: IN3 Gap Sensor Error\n16\nOPIN3REFLEC1 #0 to 4:IN3 Black Mark\nSensor Error 1 to 5\nOPIN3REFLEC2 #7:IN3 Black Mark Sensor\nError 16\nOPCITRANS1 #0, #3 to 6: Unwinder Gap\nSensor Error 1, 4 to 7\nOPCITRANS2 #7: Unwinder Gap Sensor\nError 16\nOPCIREFLEC1 #0 to 4: Unwinder Black\nMark Sensor Error 1 to 5\nOPCIREFLEC2 #7: Unwinder Black Mark\nSensor Error 16\nIn the case of the following error occurred,\nthe message is displayed throughout 2\nlines.\n%SENSOR_ERROR%:\nOPIN3TRANS1 #7:\nMark Detection Error\nIN3 Gap Sensor\nOPIN3REFLEC1 #5:\nMark Detection Error\nIN3 Black Mark Sensor\nOPCITRANS1 #7:\nMark Detection Error\nUnwinder Gap Sensor\nOPCIREFLEC1 #5:\nMark Detection Error\nUnwinder Black Mark Sensor"
+  },
+  {
+    "Codici errore":7382,
+    "Panel messages":"Invalid Print\nCartridge Order\nSet to\n%MENUCOLOR%",
+    "Details":"Print Cartridge order wrongs.\n[for Pro1050 (5 color)]\nThis error occurs in the Print Cartridges\nset order is except YMCKW.\n[for Pro1040 (4 color)]\nThis error occurs in the Print Cartridges\nset order is except YMCK.\n%MENUCOLOR% (Pro1040)\nY, M, C, K\n%MENUCOLOR% (Pro1050)\nY, M, C, K, W"
+  },
+  {
+    "Codici errore":7383,
+    "Panel messages":"Paper Width\nError",
+    "Details":"The Fuser side thermistor indicates high\ntemperature error."
+  },
+  {
+    "Codici errore":7384,
+    "Panel messages":"Install Paper\nGuide\nRe-set the Paper\nGuide",
+    "Details":"Paper guide error.\nThe paper guide is unfastened."
+  },
+  {
+    "Codici errore":7385,
+    "Panel messages":"The job was\ncancelled due to\na spot color order\nmismatch",
+    "Details":"Indicates that printing on unusable custom\nmedia or spot color is requested; therefore,\nthe printing has been cancelled."
+  },
+  {
+    "Codici errore":7386,
+    "Panel messages":"The job was\ncancelled due\nto a paper width\nmismatch",
+    "Details":"Indicates that printing on unusable custom\nmedia or spot color is requested; therefore,\nthe print data has been deleted and the\nprinting has been cancelled."
+  },
+  {
+    "Codici errore":7390,
+    "Panel messages":"Unnecessary\nPrint Cartridge\nError\nThe job was\ncancelled. Check\nthe position of\nthe print cartridge\nlift up lever.",
+    "Details":"Print Cartridge Up \/ Down mismatch error.\nThe Print Cartridge of the color (mono,\ncolor, spot) specified by the printing job\nhas up. Or, The Print Cartridge of the color\n(color, spot) not specified has down.\nThe job has been cancelled in this error\noccurred.\nThis error is cleared by pushing OK button.\nError 7390 : K ↓, CMY ↓."
+  },
+  {
+    "Codici errore":7391,
+    "Panel messages":"Unnecessary\nPrint Cartridge\nError\nThe job was\ncancelled. Check\nthe position of\nthe print cartridge\nlift up lever.",
+    "Details":"Print Cartridge Up \/ Down mismatch error.\nThe Print Cartridge of the color (mono,\ncolor, spot) specified by the printing job\nhas up. Or, The Print Cartridge of the color\n(color, spot) not specified has down.\nThe job has been cancelled in this error\noccurred.\nThis error is cleared by pushing OK button.\nError 7391 : K ↓, CMY ↑.\n"
+  },
+  {
+    "Codici errore":7392,
+    "Panel messages":"Unnecessary\nPrint Cartridge\nError\nThe job was\ncancelled. Check\nthe position of\nthe print cartridge\nlift up lever.",
+    "Details":"Print Cartridge Up \/ Down mismatch error.\nThe Print Cartridge of the color (mono,\ncolor, spot) specified by the printing job\nhas up. Or, The Print Cartridge of the color\n(color, spot) not specified has down.\nThe job has been cancelled in this error\noccurred.\nThis error is cleared by pushing OK button.\nError 7392 : K ↓, CMY ↓, Spot↓."
+  },
+  {
+    "Codici errore":7393,
+    "Panel messages":"Unnecessary\nPrint Cartridge\nError\nThe job was\ncancelled. Check\nthe position of\nthe print cartridge\nlift up lever.",
+    "Details":"Print Cartridge Up \/ Down mismatch error.\nThe Print Cartridge of the color (mono,\ncolor, spot) specified by the printing job\nhas up. Or, The Print Cartridge of the color\n(color, spot) not specified has down.\nThe job has been cancelled in this error\noccurred.\nThis error is cleared by pushing OK button.\nError 7393 : K ↓, CMY ↓, Spot↑."
+  },
+  {
+    "Codici errore":7394,
+    "Panel messages":"Unnecessary\nPrint Cartridge\nError\nThe job was\ncancelled. Check\nthe position of\nthe print cartridge\nlift up lever.",
+    "Details":"Print Cartridge Up \/ Down mismatch error.\nThe Print Cartridge of the color (mono,\ncolor, spot) specified by the printing job\nhas up. Or, The Print Cartridge of the color\n(color, spot) not specified has down.\nThe job has been cancelled in this error\noccurred.\nThis error is cleared by pushing OK button.\nError 7394 : K ↓, CMY ↑, Spot↓."
+  },
+  {
+    "Codici errore":7395,
+    "Panel messages":"Unnecessary\nPrint Cartridge\nError\nThe job was\ncancelled. Check\nthe position of\nthe print cartridge\nlift up lever.",
+    "Details":"Print Cartridge Up \/ Down mismatch error.\nThe Print Cartridge of the color (mono,\ncolor, spot) specified by the printing job\nhas up. Or, The Print Cartridge of the color\n(color, spot) not specified has down.\nThe job has been cancelled in this error\noccurred.\nThis error is cleared by pushing OK button.\nError 7395 : K ↓, CMY ↑, Spot↑."
+  },
+  {
+    "Codici errore":7396,
+    "Panel messages":"Unnecessary\nPrint Cartridge\nError\nThe job was\ncancelled. Check\nthe position of\nthe print cartridge\nlift up lever.",
+    "Details":"Print Cartridge Up \/ Down mismatch error.\nThe Print Cartridge of the color (mono,\ncolor, spot) specified by the printing job\nhas up. Or, The Print Cartridge of the color\n(color, spot) not specified has down.\nThe job has been cancelled in this error\noccurred.\nThis error is cleared by pushing OK button.\nError 7396 : K ↑, CMY ↑, Spot↓."
+  },
+  {
+    "Codici errore":7398,
+    "Panel messages":"Unnecessary\nPrint Cartridge\nError\nCheck the\nposition of print\ncartridge lift up\nlever.",
+    "Details":"Print Cartridge up error (PU).\nThis error occurs when the PU executes\ncorrection and the Print Cartridge state is\nnot down.\nfor Pro1040(4 colors)\nError 7398 : K ↓, CMY ↓."
+  },
+  {
+    "Codici errore":7399,
+    "Panel messages":"Unnecessary\nPrint Cartridge\nError\nCheck the\nposition of print\ncartridge lift up\nlever.",
+    "Details":"Print Cartridge up error (PU).\nThis error occurs when the PU executes\ncorrection and the Print Cartridge state is\nnot down.\nfor Pro1050(5 colors)\nError 7399 : K ↓, CMY ↓, Spot ↓."
+  },
+  {
+    "Codici errore":"Fatal 126",
+    "Panel messages":"Power Off and\nWait for a while\n126:Condensing\nError",
+    "Details":"Condensation in the printer was detected."
+  }
+]
