@@ -105,38 +105,42 @@
       }
     }
 
-    function cercaErrore() {
-      const codice = document.getElementById("codice").value.trim().toLowerCase();
-      const risultato = document.getElementById("risultato");
-      risultato.innerHTML = "";
+function cercaErrore() {
+  const codice = document.getElementById("codice").value.trim().toLowerCase();
+  const risultato = document.getElementById("risultato");
+  risultato.innerHTML = "";
 
-      if (!codice) return;
+  if (!codice) return;
 
-      const trovatoErrori = datiErrori.find(e =>
-        (e.Codice || e["Codice Errore"] || e["Codici errore"] || "").toString().toLowerCase() === codice
-      );
+  const trovatiErrori = datiErrori.filter(e =>
+    (e.Codice || e["Codice Errore"] || e["Codici errore"] || "").toString().toLowerCase() === codice
+  );
 
-      const trovatoService = datiService.find(e =>
-        (e["Error Code"] || "").toString().toLowerCase() === codice
-      );
+  const trovatiService = datiService.filter(e =>
+    (e["Error Code"] || "").toString().toLowerCase() === codice
+  );
 
-      if (trovatoErrori) {
-        risultato.innerHTML = `
-          <p><strong>Codice:</strong> ${codice.toUpperCase()}</p>
-          <p><strong>Messaggio:</strong> ${trovatoErrori["Panel messages"] || "-"}</p>
-          <p><strong>Dettagli:</strong> ${trovatoErrori["Details"] || trovatoErrori["Details EN"] || "-"}</p>
-        `;
-      } else if (trovatoService) {
-        risultato.innerHTML = `
-          <p><strong>Codice:</strong> ${codice.toUpperCase()}</p>
-          <p><strong>Messaggio:</strong> ${trovatoService["Cause"] || "-"}</p>
-          ${trovatoService["Check details"] ? `<p><strong>Check details:</strong> ${trovatoService["Check details"]}</p>` : ""}
-          <p><strong>Dettagli:</strong> ${trovatoService["Remedial measure"] || "-"}</p>
-        `;
-      } else {
-        risultato.innerHTML = `<p class="errore">Codice non trovato.</p>`;
-      }
-    }
+  if (trovatiErrori.length > 0) {
+    risultato.innerHTML = trovatiErrori.map((e, i) => `
+      <div style="margin-bottom: 1.5rem;">
+        <p><strong>Codice:</strong> ${codice.toUpperCase()} ${trovatiErrori.length > 1 ? `(${i + 1})` : ""}</p>
+        <p><strong>Messaggio:</strong> ${e["Panel messages"] || "-"}</p>
+        <p><strong>Dettagli:</strong> ${e["Details"] || e["Details EN"] || "-"}</p>
+      </div>
+    `).join("");
+  } else if (trovatiService.length > 0) {
+    risultato.innerHTML = trovatiService.map((e, i) => `
+      <div style="margin-bottom: 1.5rem;">
+        <p><strong>Codice:</strong> ${codice.toUpperCase()} ${trovatiService.length > 1 ? `(${i + 1})` : ""}</p>
+        <p><strong>Messaggio:</strong> ${e["Cause"] || "-"}</p>
+        ${e["Check details"] ? `<p><strong>Check details:</strong> ${e["Check details"]}</p>` : ""}
+        <p><strong>Dettagli:</strong> ${e["Remedial measure"] || "-"}</p>
+      </div>
+    `).join("");
+  } else {
+    risultato.innerHTML = `<p class="errore">Codice non trovato.</p>`;
+  }
+}
 
     caricaDati();
   </script>
