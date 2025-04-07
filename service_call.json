@@ -386,7 +386,7 @@
   },
   {
     "Error Code":"169",
-    "Cause":null,
+    "Cause":"Upper Side\nThermistor Error\n01: Short circuit\nof the side\nthermistor\n02: Open circuit\nof the side\nthermistor\n03: High\ntemperature\nerror of\nthe side\nthermistor\n04: Low\ntemperature\nerror of\nthe side\nthermistor\n11: Short circuit\nof the NC\ndetection\nthermistor\n12: Open circuit\nof the NC\ndetection\nthermistor\n13: High\ntemperature\nerror of\nthe NC\ndetection\nthermistor\n14: Low\ntemperature\nerror of\nthe NC\ndetection\nthermistor\n21: Short circuit\nof the NC\ncompensation\nthermistor\n22: Open circuit\nof the NC\ndetection\nthermistor\n23: High\ntemperature\nerror of the NC\ncompensation\nthermistor\n24: Low\ntemperature\nerror of the NC\ncompensation\nthermistor",
     "Check details":null,
     "Result":null,
     "Remedial measure":"Power OFF\/ON\nReplace the Fuser and Exit\nUnit.\nService Call 136 occurs after\npower ON.\nDoes error reoccur after\nreplacing the Fuser and\nExit Unit?\nReplace the Printer controller\nboard"
